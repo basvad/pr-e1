@@ -1,7 +1,6 @@
-#!/usr/local/bin/python
-# -*- coding: utf-8 -*-
+# coding= utf-8
 import pytest
-from homework_app.app import choose_word, WORDS_LIST, \
+from homework_app import choose_word, WORDS_LIST, \
 calculate_score, create_game, MAX_AMOUNT_OF_ATTEMPS, Result, next_step
 
 def test_choose_word():
