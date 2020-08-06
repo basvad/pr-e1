@@ -99,7 +99,7 @@ def test_get_result_win(attempts_number):
     game.guess_count = attempts_number 
     answer = game.answer
     #передаем сразу правильный ответ
-    game.guessed_letters = list(answer
+    game.guessed_letters = list(answer)
     assert game.get_result() == Result.WIN
 #параметризация по результатам выигрыш, проигрыш
 #тест отстутсвия следующего шага

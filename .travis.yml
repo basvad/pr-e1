@@ -6,4 +6,4 @@ before-install:
 install:
 - pip install -r requirements.txt
 script:
-- pytest
+- pytest -s homework_tests_test_game.py
