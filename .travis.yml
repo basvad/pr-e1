@@ -7,3 +7,4 @@ install:
 - pip install -r requirements.txt
 script:
 - pytest -s homework_tests_test_game.py
+- coverage run -m --source=. pytest homework_tests_test_game.py
